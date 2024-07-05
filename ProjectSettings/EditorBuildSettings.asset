@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: 67bd4514dabb23946853cbc3b3c29b75
+  - enabled: 1
+    path: Assets/Scenes/CornholeScene.unity
+    guid: c546541a902c1b949a407ee2947b0710
+  - enabled: 1
+    path: Assets/Scenes/DuckShootingScene.unity
+    guid: 3b44cbf177603e740923a6eacad2ebfc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f41f681b4dd63354dac675adf780bdca, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 554b8693e92ecc0438bdb44a6c2661f3, type: 2}

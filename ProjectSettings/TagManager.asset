@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DuckGameSceneTrigger
+  - CornholoGameSceneTrigger
+  - LobbyGameSceneTrigger
   layers:
   - Default
   - TransparentFX
