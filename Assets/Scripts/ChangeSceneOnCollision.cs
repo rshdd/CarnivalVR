@@ -21,9 +21,15 @@ public class ChangeSceneOnCollision : MonoBehaviour
         {
             SceneManager.LoadScene("LobbyScene");
         }
-         if (other.CompareTag("MenuGameSceneTrigger"))
+
+        if (other.CompareTag("MenuGameSceneTrigger"))
         {
-            SceneManager.LoadScene("LobbyScene");
+            SceneManager.LoadScene("MenuScene");
+        }
+
+        if (other.CompareTag("ExitGameSceneTrigger"))
+        {
+            Application.Quit();
         }
 
     }

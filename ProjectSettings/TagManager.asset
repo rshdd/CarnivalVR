@@ -8,6 +8,7 @@ TagManager:
   - CornholoGameSceneTrigger
   - LobbyGameSceneTrigger
   - MenuGameSceneTrigger
+  - ExitGameSceneTrigger
   layers:
   - Default
   - TransparentFX
